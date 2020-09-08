@@ -24,6 +24,7 @@ public class AsteroidsApplication extends Application {
         AtomicInteger points = new AtomicInteger();
 
         // creating objects and lists of objects
+        //
         Ship ship = new Ship(WIDTH / 2, HEIGHT / 2);
         List<Asteroid> asteroids = new ArrayList<>();
         List<Projectile> projectiles = new ArrayList<>();
